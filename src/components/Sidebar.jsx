@@ -9,16 +9,16 @@ const Sidebar = props => (
     </div>
     <ul className="list-unstyled albums">
       <li className="active">
-        <a href="#home">Home</a>
+        <a href="#album1">Album 1</a>
       </li>
       <li>
-        <a href="#about">About</a>
+        <a href="#album2">Album 2</a>
       </li>
       <li>
-        <a href="#portfolio">Portfolio</a>
+        <a href="#album3">Album 3</a>
       </li>
       <li>
-        <a href="#contact">Contact</a>
+        <a href="#album4">Album 4</a>
       </li>
     </ul>
   </nav>

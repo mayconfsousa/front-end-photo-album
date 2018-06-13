@@ -10,21 +10,21 @@ a:focus {
   min-width: 250px;
   max-width: 250px;
   min-height: calc(100vh - 52px);
-  background: #7386d5;
-  color: #fff;
+  color: #111111;
   transition: all 0.3s;
   padding: 20px;
-  background: #6d7fcc;
+  background: #f5f5f5;
+  border-right: 1px solid #e0e0e0;
 }
 
 #sidebar .sidebar-header {
   padding: 10px;
-  background: #6d7fcc;
+  background: #f5f5f5;
 }
 
 #sidebar ul.albums {
   padding: 10px 0 20px;
-  border-bottom: 1px solid #47748b;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 #sidebar ul li a {
@@ -34,8 +34,7 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-  color: #7386d5;
-  background: #fff;
+  background: #e0e0e0;
 }
 
 @media (max-width: 768px) {
