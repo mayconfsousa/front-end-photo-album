@@ -1,0 +1,16 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "plugins": ["import", "react", "jsx-a11y"],
+  "extends": "airbnb",
+  "globals": {
+    "it": true
+  },
+  "rules": {
+    "comma-dangle": 0
+  }
+}

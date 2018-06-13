@@ -1,0 +1,32 @@
+.navbar-light {
+  background-color: #fff;
+}
+
+.navbar {
+  box-shadow: 0 8px 7px -7px #999;
+  margin-bottom: 0;
+}
+
+.navbar-header {
+  display: flex;
+  width: 100%;
+}
+
+.navbar-brand {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  color: #000;
+}
+
+.navbar-btn {
+  background-color: transparent;
+  border: 1px solid #999;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-btn {
+    display: block;
+  }
+}
