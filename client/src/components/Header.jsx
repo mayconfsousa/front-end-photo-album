@@ -5,7 +5,7 @@ import logo from '../logo.png';
 
 const Header = props => (
   <header>
-    <nav id="navbar-app" className="navbar navbar-light">
+    <nav id="navbar-app" className="navbar navbar-light navbar-fixed-top">
       <div className="navbar-header">
         <a className="navbar-brand" href="#brand">
           <img alt="Brand" src={logo} width="40" height="40" />&nbsp;&nbsp;Photo Album
