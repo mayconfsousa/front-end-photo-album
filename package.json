@@ -19,7 +19,7 @@
     "prettier": "^1.13.5"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "node ./node_modules/serve/bin/serve.js -s build",
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
