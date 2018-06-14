@@ -2,8 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 10px;
-  margin: 10px auto;
 }
 
 #album-grid:after {
@@ -12,9 +10,8 @@
 }
 
 #album-grid .item {
-  width: 25%;
-  padding: 10px;
-  box-sizing: border-box;
+  width: 20%;
+  padding: 3px;
 }
 
 #album-grid .item img {
@@ -23,6 +20,6 @@
 
 @media (max-width: 768px) {
   #album-grid .item {
-    width: 100%;
+    width: calc(100% / 3);
   }
 }

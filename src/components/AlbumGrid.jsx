@@ -1,26 +1,15 @@
 import React from 'react';
+import _ from 'lodash';
+import Photo from './Photo';
 import './AlbumGrid.css';
 
-const Photo = () => (
-  <div className="item">
-    <img alt="" src="https://cdn-images-1.medium.com/max/800/1*EntHChgUyirgbZ9A3zTxkA.png" />
-  </div>
-);
+const photos = _.times(20).map(i => ({
+  id: i + 1,
+  src: `http://placehold.it/120x120&text=image${i + 1}`
+}));
 
 const AlbumGrid = () => (
-  <div id="album-grid">
-    <Photo />
-    <Photo />
-    <Photo />
-    <Photo />
-    <Photo />
-    <Photo />
-    <Photo />
-    <Photo />
-    <Photo />
-    <Photo />
-    <Photo />
-  </div>
+  <div id="album-grid">{photos.map(photo => <Photo key={photo.id} src={photo.src} />)}</div>
 );
 
 export default AlbumGrid;

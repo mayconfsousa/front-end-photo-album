@@ -5,13 +5,13 @@ import './Sidebar.css';
 const Sidebar = props => (
   <aside>
     <nav id="sidebar" className={props.active ? 'active' : ''}>
-      <div className="sidebar-header">
+      <div id="sidebar-header">
         <h3>Albums</h3>
         <button className="btn btn-primary">
           <i className="glyphicon glyphicon-plus" />
         </button>
       </div>
-      <ul className="list-unstyled albums">
+      <ul id="album-list" className="list-unstyled">
         <li className="active">
           <a href="#album1">Album 1</a>
         </li>
