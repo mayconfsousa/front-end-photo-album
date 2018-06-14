@@ -11,10 +11,6 @@ class App extends Component {
     this.state = { sidebarActive: false };
   }
 
-  componentDidMount() {
-    window.addEventListener('resize', this.hideSidebar);
-  }
-
   toggleSidebar = () => this.setState({ sidebarActive: !this.state.sidebarActive });
   hideSidebar = () => this.setState({ sidebarActive: false });
 

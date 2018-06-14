@@ -48,7 +48,9 @@ a:focus {
 
 @media (max-width: 768px) {
   #sidebar {
-    margin-left: -250px;
+    margin-left: -75%;
+    min-width: 75%;
+    max-width: 75%;
     position: fixed;
     z-index: 1;
   }
