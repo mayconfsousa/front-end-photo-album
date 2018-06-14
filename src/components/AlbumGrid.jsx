@@ -5,7 +5,7 @@ import './AlbumGrid.css';
 
 const photos = _.times(20).map(i => ({
   id: i + 1,
-  src: `http://placehold.it/120x120&text=image${i + 1}`
+  src: `http://via.placeholder.com/300x300/00897B/fff&text=AFE IMAGE ${i + 1}`
 }));
 
 const AlbumGrid = () => (
