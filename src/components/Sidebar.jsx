@@ -7,7 +7,7 @@ const Sidebar = props => (
     <nav id="sidebar" className={props.active ? 'active' : ''}>
       <div className="sidebar-header">
         <h3>Albums</h3>
-        <button className="btn btn-info">
+        <button className="btn btn-primary">
           <i className="glyphicon glyphicon-plus" />
         </button>
       </div>
