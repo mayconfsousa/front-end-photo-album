@@ -1,0 +1,28 @@
+#album-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+#album-grid:after {
+  content: "";
+  flex: auto;
+}
+
+#album-grid .item {
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#album-grid .item img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  #album-grid .item {
+    width: 100%;
+  }
+}

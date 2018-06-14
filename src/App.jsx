@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
+import SearchBox from './components/SearchBox';
+import AlbumGrid from './components/AlbumGrid';
 import './App.css';
 
 class App extends Component {
@@ -20,7 +22,13 @@ class App extends Component {
     return (
       <div>
         <Header toggleSidebar={this.toggleSidebar} />
-        <Sidebar active={this.state.sidebarActive} />
+        <div id="wrapper">
+          <Sidebar active={this.state.sidebarActive} />
+          <section id="content">
+            <SearchBox />
+            <AlbumGrid />
+          </section>
+        </div>
       </div>
     );
   }
